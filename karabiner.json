@@ -584,7 +584,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "hold capslock and c + l = cmd + shift + l",
+                                "description": "hold capslock and c + l = cmd + shift + right_arrow",
                                 "from": {
                                     "key_code": "l",
                                     "modifiers": {
@@ -616,7 +616,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "hold capslock and c + h = cmd + shift + h",
+                                "description": "hold capslock and c + h = cmd + shift + left_arrow",
                                 "from": {
                                     "key_code": "h",
                                     "modifiers": {
@@ -648,7 +648,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "hold capslock and c + j = cmd + shift + j",
+                                "description": "hold capslock and c + j = cmd + shift + down_arrow",
                                 "from": {
                                     "key_code": "j",
                                     "modifiers": {
@@ -680,7 +680,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "hold capslock and c + k = cmd + shfit + up",
+                                "description": "hold capslock and c + k = cmd + shift + up",
                                 "from": {
                                     "key_code": "k",
                                     "modifiers": {
@@ -695,7 +695,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "down_arrow",
+                                        "key_code": "up_arrow",
                                         "modifiers": [
                                             "left_command",
                                             "left_shift"
