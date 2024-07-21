@@ -167,22 +167,14 @@
                         ]
                     },
                     {
-                        "description": "Screen Shortcut (Rectangle) = v and directional keys",
+                        "description": "Screen Shortcut (Rectangle)",
                         "manipulators": [
                             {
-                                "conditions": [
-                                    {
-                                        "name": "v_held",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "description": "Hold caps lock and v, then hold left command and press enter = left command + left option + return_or_enter",
+                                "description": "Hold caps lock + press enter = left command + left option + return_or_enter",
                                 "from": {
                                     "key_code": "return_or_enter",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command",
                                             "right_command",
                                             "right_control",
                                             "right_shift",
@@ -202,19 +194,11 @@
                                 "type": "basic"
                             },
                             {
-                                "conditions": [
-                                    {
-                                        "name": "v_held",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "description": "Hold caps lock and v, then hold left command and press k = left command + left option + up_arrow",
+                                "description": "Hold caps lock press i = left command + left option + up_arrow",
                                 "from": {
-                                    "key_code": "k",
+                                    "key_code": "i",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command",
                                             "right_command",
                                             "right_control",
                                             "right_shift",
@@ -234,19 +218,11 @@
                                 "type": "basic"
                             },
                             {
-                                "conditions": [
-                                    {
-                                        "name": "v_held",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "description": "Hold caps lock and v, hold left command and press h = left command + left option + left_arrow",
+                                "description": "Hold caps lock and press y = left command + left option + left_arrow",
                                 "from": {
-                                    "key_code": "h",
+                                    "key_code": "y",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command",
                                             "right_command",
                                             "right_control",
                                             "right_shift",
@@ -266,19 +242,11 @@
                                 "type": "basic"
                             },
                             {
-                                "conditions": [
-                                    {
-                                        "name": "v_held",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "description": "Hold caps lock and v, then hold left command and press l = left command + left option + right_arrow",
+                                "description": "Hold caps lock and press o = left command + left option + right_arrow",
                                 "from": {
-                                    "key_code": "l",
+                                    "key_code": "o",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command",
                                             "right_command",
                                             "right_control",
                                             "right_shift",
@@ -298,19 +266,11 @@
                                 "type": "basic"
                             },
                             {
-                                "conditions": [
-                                    {
-                                        "name": "v_held",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "description": "Hold caps lock and v, then hold left command and press j = left command + left option + down_arrow",
+                                "description": "Hold caps lock and press u = left command + left option + down_arrow",
                                 "from": {
-                                    "key_code": "j",
+                                    "key_code": "u",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command",
                                             "right_command",
                                             "right_control",
                                             "right_shift",
@@ -1389,6 +1349,28 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
+                    "mouse_flip_horizontal_wheel": false,
+                    "mouse_flip_vertical_wheel": false,
+                    "mouse_flip_x": false,
+                    "mouse_flip_y": false,
+                    "mouse_swap_wheels": false,
+                    "mouse_swap_xy": false,
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "game_pad_swap_sticks": false,
+                    "identifiers": {
+                        "is_game_pad": false,
+                        "is_keyboard": false,
+                        "is_pointing_device": false,
+                        "product_id": 34304,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
                     "mouse_flip_horizontal_wheel": false,
                     "mouse_flip_vertical_wheel": false,
                     "mouse_flip_x": false,
