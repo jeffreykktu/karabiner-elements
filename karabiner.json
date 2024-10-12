@@ -1966,7 +1966,7 @@
                         ]
                     },
                     {
-                        "description": "key s, d, f = volume controls",
+                        "description": "key s, f, g = volume controls",
                         "manipulators": [
                             {
                                 "description": "Hold Capslock and press s = mute",
@@ -1978,18 +1978,18 @@
                                 "type": "basic"
                             },
                             {
-                                "description": "Hold Capslock and press d = Volume down",
+                                "description": "Hold Capslock and press f = Volume down",
                                 "from": {
-                                    "key_code": "d",
+                                    "key_code": "f",
                                     "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
                                 },
                                 "to": [{ "key_code": "volume_decrement" }],
                                 "type": "basic"
                             },
                             {
-                                "description": "Hold Capslock and press f = Volume up",
+                                "description": "Hold Capslock and press g = Volume up",
                                 "from": {
-                                    "key_code": "f",
+                                    "key_code": "g",
                                     "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
                                 },
                                 "to": [{ "key_code": "volume_increment" }],
@@ -2031,7 +2031,8 @@
                 }
             ],
             "name": "Default profile",
-            "selected": true
+            "selected": true,
+            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
         }
     ]
 }
